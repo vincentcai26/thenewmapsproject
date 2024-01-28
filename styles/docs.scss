@@ -1,0 +1,86 @@
+@import "./globals.scss";
+
+#documentation{
+    .docs-header-container{
+        background-color: lightgray;
+        padding: 5vh 5vw;
+        margin-top: 30px;
+        box-shadow: 3px 3px 5px rgb(119, 119, 119);
+    }
+    #docs-container{
+        display: grid;
+        grid-template-columns: auto 1fr;
+        margin: 20px 0px;
+        margin-bottom: 20vh;
+
+        .menu-button{
+            display: none;
+        }
+        .docs-col1{
+            margin-right: 20px;
+            .docs-options{
+                padding: 15px;
+                background-color: lightgrey;
+                min-width: 200px;
+                height: auto;
+                box-shadow: 3px 3px 5px rgb(99, 99, 99);
+                li{
+                    margin: 10px 0px;
+                    .tb{
+                        font-size: 22px;
+                        &.focused{
+                            font-weight: bold;
+                        }
+                        &.docs-option-secondary{
+                            font-size: 18px;
+                            padding-left: 10px;
+                        }
+                    }
+                }
+            }
+        }
+        .docs-col2{
+            margin: 0px 30px;
+            #docs-body{
+                font-size: 1.2em;
+                h1{
+                    font-size: 2em;
+                }
+                a{
+                    @include linkStyles();
+                }
+                p{
+                    line-height: 1.5;
+                }
+                
+            }
+        }
+    }
+}
+
+@media (max-width: 1000px){
+    #documentation{
+        #docs-container{
+            display: block;
+            .docs-col1, .docs-col2{
+                margin: 0px;
+            }
+            .menu-button{
+                @include row();
+                background-color: transparent;
+                border: none;
+                @include hoverer1();
+                background-color: black;
+                color: white;
+                font-size: 18px;
+                padding: 5px 20px;
+                box-shadow: 5px 5px 10px lightgrey;
+                .icon{
+                    
+                    height: 18px;
+                    margin: auto 0px auto 15px;
+                }
+            }
+        }
+    }
+}
