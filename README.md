@@ -4,7 +4,7 @@ This is the official website of The New Maps Project. Currently version 3.0.
 
 ## Access this Website
 
-The URL is at [https://thenewmapsproject.org/](https://thenewmapsproject.vercel.app/)
+The URL is at [https://thenewmapsproject.vercel.app/](https://thenewmapsproject.vercel.app/)
 
 ## Documentation
 
