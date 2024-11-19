@@ -4,11 +4,11 @@ This is the official website of The New Maps Project. Currently version 3.0.
 
 ## Access this Website
 
-The URL is at [https://thenewmapsproject.org/](https://thenewmapsproject.org/)
+The URL is at [https://thenewmapsproject.org/](https://thenewmapsproject.vercel.app/)
 
 ## Documentation
 
-Documenation is on the website, and is written in markdown in the `docs` folder. Documenation can be found at [https://thenewmapsproject.org/documentation](https://thenewmapsproject.org/documentation)
+Documenation is on the website, and is written in markdown in the `docs` folder. Documenation can be found at [https://thenewmapsproject.vercel.app/documentation](https://thenewmapsproject.vercel.app/documentation)
 
 ## Technology and Contributing
 
